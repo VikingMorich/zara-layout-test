@@ -3,18 +3,23 @@
 
 <h2 align="center">🧾 Descripción</h2>
 <p>Este proyecto es una página web desarrollada como prueba técnica para el equipo de zara.</p>
+</br>
 <h3>Instrucciones para ejecutar el proyecto</h3>
-<ul>Abrir terminal e instalar dependencias</ul>
-<ul>Usar npm start</ul>
-</br></br>
+<ul>
+    <li>Abrir la carpeta del proyecto en la terminal e instalar dependencias `npm i`</li>
+    <li>Usar `npm run start` para abrir puerto en local</li>
+</ul>
+</br>
 <h3>Decisiones técnicas tomadas</h3>
-<ul>3 breakpoints creados con SASS y usados para crear responsive.</ul>
-<ul>ScrollReveal para generar animaciones de algunos elementos del DOM.</ul>
-<ul>Swiper para los carousels.</ul>
-</br></br>
+<ul>
+    <li>3 breakpoints creados con SASS y usados para crear responsive.</li>
+    <li>ScrollReveal para generar animaciones de algunos elementos del DOM.</li>
+    <li>Swiper para los carousels.</li>
+</ul>
+</br>
 <h3>Tiempo dedicado</h3>
 <p>12h</p>
-</br></br>
+</br>
 <p>Este dominio está publicado y puede probarse en el siguiente enlace:</p>
 <a href="https://zara-9b3ae.web.app/">https://zara-9b3ae.web.app/</a>
 </br></br>
