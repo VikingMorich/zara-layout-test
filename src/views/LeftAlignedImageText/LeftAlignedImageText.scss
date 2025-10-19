@@ -1,0 +1,13 @@
+.left-aligned-image-text {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    width: 92%;
+
+    @include respond(md) {
+        width: 100%;
+    }
+
+    @include respond(lg) {
+        margin-bottom: 327px;
+    }
+}

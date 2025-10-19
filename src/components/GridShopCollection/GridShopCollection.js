@@ -1,0 +1,31 @@
+export default function GridShopCollection (){
+  return (
+    <div className="grid-shop-collection">
+        <img src="grid/grid01.jpg" alt="grid01" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid02.jpg" alt="grid02" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid03.jpg" alt="grid03" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid04.jpg" alt="grid04" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid05.jpg" alt="grid05" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid06.jpg" alt="grid06" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid07.jpg" alt="grid07" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid08.jpg" alt="grid08" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid09.jpg" alt="grid09" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid10.jpg" alt="grid10" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid11.jpg" alt="grid11" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid12.jpg" alt="grid12" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid13.jpg" alt="grid13" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid14.jpg" alt="grid14" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid15.jpg" alt="grid15" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid16.jpg" alt="grid16" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid17.jpg" alt="grid17" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid18.jpg" alt="grid18" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid19.jpg" alt="grid19" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid20.jpg" alt="grid20" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid21.jpg" alt="grid21" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid22.jpg" alt="grid22" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid23.jpg" alt="grid23" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid24.jpg" alt="grid24" className='grid-shop-collection__image' loading='lazy'/>
+        <img src="grid/grid25.jpg" alt="grid25" className='grid-shop-collection__image' loading='lazy'/>
+    </div>
+  );
+}

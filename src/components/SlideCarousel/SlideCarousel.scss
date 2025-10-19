@@ -1,0 +1,15 @@
+.slide-carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.slide-carousel__image {
+    height: 793px;
+    object-fit: cover;
+}
+
+.slide-carousel__caption {
+    font-size: 12px;
+    text-align: end;
+}

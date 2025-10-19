@@ -1,0 +1,55 @@
+@import '../../styles/_breakpoints.scss';
+
+.introduction-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 106px auto 45px;
+    width: 92%;
+
+    @include respond(lg) {
+        width: 80.82%;
+        margin-left: 7.45%;
+        gap: 6.9%;
+        flex-direction: row;
+        margin: 106px auto 60px;
+    }
+}
+
+.introduction-description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.introduction-description__title {
+    font-size: 13px;
+}
+
+.introduction-description__text, .introduction-description__inspiration, .image-card__caption {
+    font-size: 12px;
+    text-align: end;
+}
+
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-card__photo {
+    width: 100%;
+    transition: filter 1s ease-in-out, border-radius 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+    filter: saturate(100%);
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 1px 1px transparent; 
+    box-shadow: 0px 0px 1px 1px transparent;
+}
+
+.image-card__photo:hover {
+    filter: saturate(150%);
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 1px 1px #000000; 
+    box-shadow: 0px 0px 1px 1px #000000;
+}
