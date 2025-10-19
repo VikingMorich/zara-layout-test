@@ -1,3 +1,7 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+User-agent: *  
+Disallow: /wp-admin/  
+Disallow: /?s=  
+Allow: /wp-admin/admin-ajax.ph    
+
+Sitemap: https://zara-9b3ae.web.app/sitemap.xml
+Host: https://zara-9b3ae.web.app

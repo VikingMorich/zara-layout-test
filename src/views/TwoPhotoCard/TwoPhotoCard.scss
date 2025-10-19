@@ -1,70 +1,73 @@
 .two-photo-card {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 45px;
-    width: 92%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  width: 92%;
 
-    @include respond(md) {
-        flex-direction: row;
-        gap: 4.4%;
-        width: 97%;
-        margin-left: 3%;
-    }
+  @include respond(md) {
+    flex-direction: row;
+    gap: 4.4%;
+    width: 97%;
+    margin-left: 3%;
+  }
 
-    @include respond(lg) {
-        margin-bottom: 226px;
-    }
+  @include respond(lg) {
+    margin-bottom: 226px;
+  }
 }
 
 .photo-card-left {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
 
-    @include respond(md) {
-        width: 37%;
-        gap: 3.8%;
-    }
+  @include respond(md) {
+    width: 37%;
+    gap: 3.8%;
+  }
 }
 
 .photo-card-left__image {
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 0px;
-    @include respond(md) {
-        margin-bottom: 9.23%;
-    }
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 0px;
+  @include respond(md) {
+    margin-bottom: 9.23%;
+  }
 }
 
 .photo-card-left__description {
-    font-size: 12px;
-    text-align: start;
-    @include respond(md) {
-        width: 61.17%;
-    }
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  @include respond(md) {
+    width: 61.17%;
+  }
 }
 
 .photo-card-right {
-    width: 100%;
-    object-fit: cover;
-    @include respond(md) {
-        width: 54%;
-    }
+  width: 100%;
+  object-fit: cover;
+  @include respond(md) {
+    width: 54%;
+  }
 }
 
 .photo-card-img {
-    transition: filter 1s ease-in-out, border-radius 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
-    border-radius: 0px;
-    box-shadow: 0 0 2px 2px transparent;
-    filter: grayscale(0%);
+  transition: filter 1s ease-in-out, border-radius 0.5s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  border-radius: 0px;
+  box-shadow: 0 0 2px 2px transparent;
+  filter: grayscale(0%);
 }
 
 .photo-card-img:hover {
-    filter: grayscale(85%);
-    border-radius: 10px;
-    box-shadow: 0 0 1px 1px black;
+  filter: grayscale(85%);
+  border-radius: 10px;
+  box-shadow: 0 0 1px 1px black;
 }

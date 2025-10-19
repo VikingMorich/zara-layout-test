@@ -1,14 +1,14 @@
 .carousel {
-    margin: 0 auto;
-    margin-bottom: 45px;
-    width: 92%;
-    
-    @include respond(md) {
-        width: 96%;
-    }
+  margin: 0 auto;
+  margin-bottom: 45px;
+  width: 92%;
 
-     @include respond(lg) {
-        width: 94%;
-        margin-bottom: 192px;
-    }
+  @include respond(md) {
+    width: 96%;
+  }
+
+  @include respond(lg) {
+    width: 94%;
+    margin-bottom: 192px;
+  }
 }

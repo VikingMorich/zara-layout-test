@@ -1,46 +1,46 @@
 .profile-overview {
-    position: relative;
-    margin-bottom: 45px;
+  position: relative;
+  margin-bottom: 45px;
 
-    @include respond(lg) {
-        margin-bottom: 143px;
-    }
+  @include respond(lg) {
+    margin-bottom: 143px;
+  }
 }
 
 .profile-overview__photo {
-    display: block;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+  display: block;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    @include respond(md) {
-        width: 100vw;
-    }
+  @include respond(md) {
+    width: 100vw;
+  }
 }
 
 .overview-description {
-    font-size: 13px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 70%;
-    left: 80%;
-    color: #FFFFFF;
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: max-content;
+  font-size: 13px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 80%;
+  color: #ffffff;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: max-content;
 
-    @include respond(md) {
-        top: 60%;
-    }
+  @include respond(md) {
+    top: 60%;
+  }
 }
 
-.overview-description__title, .overview-description__hashtag {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-size: 13px;
-    margin-bottom: 6px;
+.overview-description__title,
+.overview-description__hashtag {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 13px;
+  margin-bottom: 6px;
 }

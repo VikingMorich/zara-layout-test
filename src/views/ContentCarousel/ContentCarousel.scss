@@ -1,30 +1,32 @@
 .content-carousel {
-    margin: 0 auto;
-    margin-bottom: 45px;
-    width: 92%;
-    
-    @include respond(md) {
-        width: 96%;
-    }
+  margin: 0 auto;
+  margin-bottom: 45px;
+  width: 92%;
 
-    @include respond(lg) {
-        width: 94%;
-        margin-bottom: 113px;
-    }
+  @include respond(md) {
+    width: 96%;
+  }
+
+  @include respond(lg) {
+    width: 94%;
+    margin-bottom: 113px;
+  }
 }
 
 .content-carousel__description {
-    font-size: 13px;
-    text-align: start;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 42px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.18px;
+  text-align: start;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 42px;
 
-    @include respond(md) {
-        width: 60%;
-    }
+  @include respond(md) {
+    width: 60%;
+  }
 
-    @include respond(lg) {
-        width: 36.82%;
-    }
+  @include respond(lg) {
+    width: 36.82%;
+  }
 }

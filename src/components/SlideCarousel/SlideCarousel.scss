@@ -1,15 +1,18 @@
 .slide-carousel {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .slide-carousel__image {
-    height: 793px;
-    object-fit: cover;
+  height: 793px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .slide-carousel__caption {
-    font-size: 12px;
-    text-align: end;
+  font-size: 12px;
+  text-align: end;
+  line-height: 15px;
+  letter-spacing: 0.18px;
 }

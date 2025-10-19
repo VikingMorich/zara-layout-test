@@ -18,7 +18,7 @@
 </ul>
 </br>
 <h3>Tiempo dedicado</h3>
-<p>12h</p>
+<p>10h (8 de maquetación y 2 creatividad) </p>
 </br>
 <p>Este dominio está publicado y puede probarse en el siguiente enlace:</p>
 <a href="https://zara-9b3ae.web.app/">https://zara-9b3ae.web.app/</a>

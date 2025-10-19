@@ -1,86 +1,86 @@
 .image-text-section {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    width: 100%;
-    @include respond(md) {
-        flex-direction: row;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  @include respond(md) {
+    flex-direction: row;
+  }
 }
 
-.image-text-section--right{
-    @include respond(md) {
-        width: 91.5%;
-        margin-right: 8.5%;
-        gap: 4.87%;
-        justify-content: flex-end;
-    }
+.image-text-section--right {
+  @include respond(md) {
+    width: 91.5%;
+    margin-right: 8.5%;
+    gap: 4.87%;
+    justify-content: flex-end;
+  }
 }
-
 
 .image-text-section--left {
-    @include respond(md) {
-        width: 84.68%;
-        margin-left: 2.5%;
-        gap: 4.87%;
-    }
+  @include respond(md) {
+    width: 84.68%;
+    margin-left: 2.5%;
+    gap: 4.87%;
+  }
 }
 
-
 .card-image {
-    object-fit: cover;
-    transition: filter 1s ease-in-out, border-radius 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
-    border-radius: 0px;
-    box-shadow: 0 0 2px 2px transparent;
-    filter: sepia(0%);
+  object-fit: cover;
+  transition: filter 1s ease-in-out, border-radius 0.5s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  border-radius: 0px;
+  box-shadow: 0 0 2px 2px transparent;
+  filter: sepia(0%);
 }
 
 .card-image:hover {
-    filter: sepia(70%);
-    border-radius: 20px;
-    box-shadow: 0 0 1px 1px black;
+  filter: sepia(70%);
+  border-radius: 20px;
+  box-shadow: 0 0 1px 1px black;
 }
 
 .card-image--right {
-    width: 100%;
+  width: 100%;
 
-    @include respond(md) {
-        width: 40%;
-    }
+  @include respond(md) {
+    width: 40%;
+  }
 }
 
 .card-image--left {
-    width: 100%;
+  width: 100%;
 
-    @include respond(md) {
-        width: 60%;
-    }
+  @include respond(md) {
+    width: 60%;
+  }
 }
 
 .image-text-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
 
-    @include respond(md) {
-        width: 30%;
-    }
+  @include respond(md) {
+    width: 30%;
+  }
 }
 
 .image-text-description--left {
-    text-align: start;
+  text-align: start;
 }
 
 .image-text-description--right {
-    text-align: start;
+  text-align: start;
 
-    @include respond(md) {
-        text-align: end;
-    }
-    
+  @include respond(md) {
+    text-align: end;
+  }
 }
 
 .image-text-description__subtitle {
-    font-size: 12px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.18px;
 }
