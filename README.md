@@ -6,8 +6,8 @@
 </br>
 <h3>Instrucciones para ejecutar el proyecto</h3>
 <ul>
-    <li>Abrir la carpeta del proyecto en la terminal e instalar dependencias `npm i`</li>
-    <li>Usar `npm run start` para abrir puerto en local</li>
+    <li>Abrir la carpeta del proyecto en la terminal e instalar dependencias <code>npm i</code></li>
+    <li>Usar <code>npm run start</code> para abrir un puerto en local</li>
 </ul>
 </br>
 <h3>Decisiones técnicas tomadas</h3>
