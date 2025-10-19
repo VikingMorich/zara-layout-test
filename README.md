@@ -3,10 +3,16 @@
 
 <h2 align="center">🧾 Descripción</h2>
 <p>Este proyecto es una página web desarrollada como prueba técnica para el equipo de zara.</p>
+<p>La web incluye:</p>
+<ul>🖼️ Modelado pixel perfect según el diseño de Figma</ul>
+<ul>📱 Diseño responsive y adaptable para diferentes pantallas</ul>
+<ul>✨ Animaciones al hacer scroll para crear dinamismo</ul>
+<ul>🎨 Hover effects en imágenes para crear efectos</ul>
+<ul>🎞️ Carousel con imágenes</ul>
 </br>
 <h3>Instrucciones para ejecutar el proyecto</h3>
 <ul>
-    <li>Abrir la carpeta del proyecto en la terminal e instalar dependencias <code>npm i</code></li>
+    <li>Abrir la carpeta del proyecto en la terminal e instalar dependencias con <code>npm i</code></li>
     <li>Usar <code>npm run start</code> para abrir un puerto en local</li>
 </ul>
 </br>
