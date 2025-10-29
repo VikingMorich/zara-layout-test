@@ -21,6 +21,7 @@
     <li>3 breakpoints creados con SASS y usados para crear responsive.</li>
     <li>ScrollReveal para generar animaciones de algunos elementos del DOM.</li>
     <li>Swiper para los carousels.</li>
+    <li>Metodología BEM (nomenclatura de clases)</li>
 </ul>
 </br>
 <h3>Tiempo dedicado</h3>
