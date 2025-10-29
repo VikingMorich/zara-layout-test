@@ -19,12 +19,14 @@ function App() {
       origin: "left",
       easing: "ease-in-out",
       reset: true,
+      cleanup: true,
     });
 
     ScrollReveal().reveal(".profile-overview", {
       duration: 1000,
       easing: "ease-in-out",
       reset: true,
+      cleanup: true,
     });
 
     ScrollReveal().reveal(".about-card", {
@@ -33,12 +35,14 @@ function App() {
       origin: "right",
       easing: "ease-in-out",
       reset: true,
+      cleanup: true,
     });
 
     ScrollReveal().reveal(".two-photo-card", {
       duration: 1000,
       easing: "ease-in-out",
       reset: true,
+      cleanup: true,
     });
 
     ScrollReveal().reveal(".left-aligned-image-text", {
@@ -47,6 +51,7 @@ function App() {
       origin: "right",
       easing: "ease-in-out",
       reset: true,
+      cleanup: true,
     });
 
     ScrollReveal().reveal(".right-aligned-image-text", {
@@ -55,6 +60,7 @@ function App() {
       origin: "left",
       easing: "ease-in-out",
       reset: true,
+      cleanup: true,
     });
   }, []);
 
